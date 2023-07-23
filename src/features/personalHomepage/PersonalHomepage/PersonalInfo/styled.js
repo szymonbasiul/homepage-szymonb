@@ -25,3 +25,7 @@ export const Header = styled.h1`
 export const Content = styled.p`
   display: flex;
 `;
+export const Button = styled.button`
+  display: flex;
+  
+`;
