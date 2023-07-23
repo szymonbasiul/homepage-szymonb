@@ -14,7 +14,7 @@ export const PersonalImage = styled.img`
   object-fit: cover;
   object-position: top center;
 `;
-export const Preheader = styled.div`
+export const Preheader = styled.h2`
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
@@ -27,5 +27,5 @@ export const Content = styled.p`
 `;
 export const Button = styled.button`
   display: flex;
-  
+
 `;
