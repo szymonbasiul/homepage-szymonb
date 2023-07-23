@@ -1,6 +1,8 @@
+import PersonalInfo from "./PersonalInfo";
+
 function PersonalHomepage() {
     return (
-        <div>Homepage</div>
+        <PersonalInfo />
     )
 }
 

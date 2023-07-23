@@ -1,4 +1,4 @@
-import PersonalHomepage from "../../features/personalHomepage";
+import PersonalHomepage from "../../features/personalHomepage/PersonalHomepage";
 import { Normalize } from "styled-normalize";
 import { GlobalStyle } from "./GlobalStyle";
 
