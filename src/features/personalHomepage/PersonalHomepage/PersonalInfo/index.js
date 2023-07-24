@@ -1,4 +1,12 @@
-import { Button, Container, Content, Header, PersonalImage, Preheader } from "./styled";
+import ThemeChanger from "../../../../common/ThemeChanger";
+import {
+  Button,
+  Container,
+  Content,
+  Header,
+  PersonalImage,
+  Preheader,
+} from "./styled";
 import personalImage from "./Szymon_Basiul.jpg";
 
 const PersonalInfo = () => {
@@ -6,6 +14,7 @@ const PersonalInfo = () => {
     <Container>
       <PersonalImage src={personalImage} alt="Szymon Basiul" />
       <div>
+        <ThemeChanger />
         <Preheader>This is</Preheader>
         <Header>Szymon Basiul</Header>
         <Content>
