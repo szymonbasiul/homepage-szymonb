@@ -24,6 +24,7 @@ export const Header = styled.h1`
 `;
 export const Content = styled.p`
   display: flex;
+  max-width: 500px;
 `;
 export const Button = styled.button`
   display: flex;

@@ -14,7 +14,7 @@ export const EmailLink = styled.a`
 
 `;
 
-export const Content = styled.p`
+export const Text = styled.p`
   display: flex;
 `;
 
