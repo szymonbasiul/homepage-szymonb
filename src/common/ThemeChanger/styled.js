@@ -13,6 +13,8 @@ export const Button = styled.button`
 `;
 
 export const Text = styled.span`
+  margin-right: 12px;
+  text-transform: uppercase;
   color: currentColor;
   align-self: center;
 `;

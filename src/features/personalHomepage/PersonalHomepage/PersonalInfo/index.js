@@ -2,8 +2,9 @@ import ThemeChanger from "../../../../common/ThemeChanger";
 import {
   Button,
   Container,
-  Content,
+  Text,
   Header,
+  Icon,
   PersonalImage,
   Preheader,
 } from "./styled";
@@ -18,11 +19,14 @@ const PersonalInfo = () => {
         <div>
           <Preheader>This is</Preheader>
           <Header>Szymon Basiul</Header>
-          <Content>
+          <Text>
             I'm learning to become Frontend Developer with React, currently
             looking for my first commercial experience.
-          </Content>
-          <Button>Hire me</Button>
+          </Text>
+          <Button>
+            <Icon />
+            Hire Me
+          </Button>
         </div>
       </Container>
     </>

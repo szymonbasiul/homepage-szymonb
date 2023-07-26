@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as MailIcon } from "./mail.svg";
 
 export const Container = styled.header`
   display: grid;
@@ -22,11 +23,22 @@ export const Preheader = styled.h2`
 export const Header = styled.h1`
   display: flex;
 `;
-export const Content = styled.p`
+export const Text = styled.p`
   display: flex;
   max-width: 500px;
 `;
 export const Button = styled.button`
-  display: flex;
-
+  margin-top: 32px;
+  display: inline-flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: white;
+  background: #0366d6;
+  font-size: 20px;
+  border-radius: 4px;
+  border: 1px solid var(--diff-bg-neutral, rgba(209, 213, 218, 0.3));
 `;
+
+export const Icon = styled(MailIcon)``;
