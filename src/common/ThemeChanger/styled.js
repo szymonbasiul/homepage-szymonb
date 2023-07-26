@@ -21,6 +21,7 @@ export const Text = styled.span`
 
 export const Switch = styled.span`
   display: flex;
+  background: ${({ theme }) => theme.colors.themeSwitch.background};
   border: 1px solid;
   border-radius: 16px;
   width: 48px;

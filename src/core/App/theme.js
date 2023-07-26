@@ -1,4 +1,4 @@
-const colors = {
+const paintCan = {
   white: "#FFFFFF",
   whiteLilac: "#FBFBFE",
   slateGray: "#6E7E91",
@@ -20,6 +20,17 @@ const common = {
 
 export const themeLight = {
   ...common,
+  colors: {
+    primary: paintCan.scienceBlue,
+    textPrimary: paintCan.mineShaft,
+    mailButton: {
+      text: paintCan.white,
+    },
+    themeSwitch: {
+      background: paintCan.mercury,
+      icon: paintCan.white,
+    },
+  },
   //   light theme settings - default
 };
 

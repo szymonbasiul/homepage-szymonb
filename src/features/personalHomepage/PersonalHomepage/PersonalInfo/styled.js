@@ -27,7 +27,7 @@ export const Text = styled.p`
   display: flex;
   max-width: 500px;
 `;
-export const Button = styled.button`
+export const Button = styled.a`
   margin-top: 32px;
   display: inline-flex;
   padding: 12px 16px;
@@ -37,6 +37,7 @@ export const Button = styled.button`
   color: white;
   background: #0366d6;
   font-size: 20px;
+  font-weight: 600px;
   border-radius: 4px;
   border: 1px solid var(--diff-bg-neutral, rgba(209, 213, 218, 0.3));
 `;
