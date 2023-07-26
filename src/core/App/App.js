@@ -1,14 +1,16 @@
 import PersonalHomepage from "../../features/personalHomepage/PersonalHomepage";
 import { Normalize } from "styled-normalize";
 import { GlobalStyle } from "./GlobalStyle";
+import { ThemeProvider } from "styled-components";
+import { themeLight } from "./theme";
 
 function App() {
   return (
-    <div>
+    <ThemeProvider theme={themeLight}>
       <Normalize />
       <GlobalStyle />
       <PersonalHomepage />
-    </div>
+    </ThemeProvider>
   );
 }
 
