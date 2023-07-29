@@ -23,7 +23,7 @@ const PersonalInfo = () => {
             I'm learning to become Frontend Developer with React, currently
             looking for my first commercial experience.
           </Text>
-          <Button>
+          <Button href="">
             <Icon />
             Hire Me
           </Button>

@@ -11,10 +11,11 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
-    background: #FBFBFE;
+    background: ${({ theme }) => theme.colors.site.background};
     word-break: break-word;
     line-height: 1.2;
     font-size: 18px;
+    color: ${({ theme }) => theme.colors.site.text};
     overflow-y: scroll;
     padding: 108px;
     letter-spacing: 0.05em;

@@ -22,20 +22,22 @@ export const Preheader = styled.h2`
 `;
 export const Header = styled.h1`
   display: flex;
+  color: ${({ theme }) => theme.colors.textPrimary};
 `;
 export const Text = styled.p`
   display: flex;
-  max-width: 500px;
+  max-width: 600px;
 `;
 export const Button = styled.a`
   margin-top: 32px;
   display: inline-flex;
+  text-decoration: none;
   padding: 12px 16px;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  color: white;
-  background: #0366d6;
+  color: ${({ theme }) => theme.colors.mailButton.text};
+  background: ${({ theme }) => theme.colors.primary};
   font-size: 20px;
   font-weight: 600px;
   border-radius: 4px;

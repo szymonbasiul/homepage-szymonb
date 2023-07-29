@@ -8,8 +8,12 @@ export const Container = styled.div`
 
 export const Button = styled.button`
   display: flex;
+  cursor: pointer;
+  color: inherit;
+  align-items: center;
   border: none;
   background: transparent;
+  outline-offset: 8px;
 `;
 
 export const Text = styled.span`
@@ -17,6 +21,10 @@ export const Text = styled.span`
   text-transform: uppercase;
   color: currentColor;
   align-self: center;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    display: none;
+  }
 `;
 
 export const Switch = styled.span`
@@ -35,4 +43,6 @@ export const IconWrapper = styled.div`
   background: currentColor;
 `;
 
-export const Icon = styled(SunIcon)``;
+export const Icon = styled(SunIcon)`
+  color: ${({ theme }) => theme.colors.themeSwitch.icon};
+`;
