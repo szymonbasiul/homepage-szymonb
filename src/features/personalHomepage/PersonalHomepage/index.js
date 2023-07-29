@@ -3,7 +3,7 @@ import PersonalInfo from "./PersonalInfo";
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 
-function PersonalHomepage() {
+export const PersonalHomepage = () => {
   return (
     <>
       <PersonalInfo />
@@ -12,6 +12,6 @@ function PersonalHomepage() {
       <Footer />
     </>
   );
-}
+};
 
 export default PersonalHomepage;

@@ -1,14 +1,10 @@
-import { useDispatch } from "react-redux";
 import { Button, Container, Icon, IconWrapper, Switch, Text } from "./styled";
 
-
 const ThemeChanger = () => {
-
-  const dispatch = useDispatch();
   return (
     <Container>
       <Button>
-        <Text>Dark mode off</Text>
+        <Text>Dark mode on</Text>
         <Switch>
           <IconWrapper>
             <Icon />

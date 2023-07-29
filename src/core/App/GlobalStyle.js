@@ -19,6 +19,10 @@ body {
     overflow-y: scroll;
     padding: 108px;
     letter-spacing: 0.05em;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile}px){
+        padding-bottom: 32px;
+    }
 }
 
 `;

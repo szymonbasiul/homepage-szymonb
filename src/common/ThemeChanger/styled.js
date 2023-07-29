@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { ReactComponent as SunIcon } from "./sun.svg";
 
 export const Container = styled.div`
@@ -41,6 +41,13 @@ export const IconWrapper = styled.div`
   border-radius: 50%;
   padding: 3px;
   background: currentColor;
+  transition: transform 0.3s;
+
+  ${({ moveToRight }) =>
+    moveToRight &&
+    css`
+      transform: translateX(20px);
+    `}
 `;
 
 export const Icon = styled(SunIcon)`

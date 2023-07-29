@@ -40,8 +40,15 @@ export const Button = styled.a`
   background: ${({ theme }) => theme.colors.primary};
   font-size: 20px;
   font-weight: 600px;
-  border-radius: 4px;
-  border: 1px solid var(--diff-bg-neutral, rgba(209, 213, 218, 0.3));
+  border-radius: ${({ theme }) => theme.borderRadiusSmall};
+  border: 1px solid ${({ theme }) => theme.colors.mailButton.border};
+  transition: box-shadow 0.3s;
+  &:hover {
+    box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.mailButton.shadow};
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 18px;
+  }
 `;
 
 export const Icon = styled(MailIcon)``;
