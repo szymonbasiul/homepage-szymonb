@@ -12,7 +12,7 @@ import personalImage from "./Szymon_Basiul.jpg";
 
 const PersonalInfo = () => {
   return (
-    <>
+    <div>
       <ThemeChanger />
       <Container>
         <PersonalImage src={personalImage} alt="Szymon Basiul" />
@@ -29,7 +29,7 @@ const PersonalInfo = () => {
           </Button>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 

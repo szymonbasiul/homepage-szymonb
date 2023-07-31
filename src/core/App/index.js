@@ -4,7 +4,7 @@ import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import { themeLight } from "./theme";
 
-export const App = () => {
+function App() {
   return (
     <ThemeProvider theme={themeLight}>
       <Normalize />
@@ -12,6 +12,6 @@ export const App = () => {
       <PersonalHomepage />
     </ThemeProvider>
   );
-};
+}
 
 export default App;
