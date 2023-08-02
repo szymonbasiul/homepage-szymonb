@@ -13,7 +13,7 @@ export const Button = styled.button`
   align-items: center;
   border: none;
   background: transparent;
-  outline-offset: 8px;
+  outline-offset: 10px;
 `;
 
 export const Text = styled.span`

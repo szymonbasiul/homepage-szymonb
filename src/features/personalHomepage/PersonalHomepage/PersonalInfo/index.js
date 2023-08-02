@@ -1,6 +1,6 @@
 import ThemeChanger from "../../../../common/ThemeChanger";
+import { LinkButton } from "../LinkButton";
 import {
-  Button,
   Container,
   Text,
   Header,
@@ -23,10 +23,10 @@ const PersonalInfo = () => {
             I'm learning to become Frontend Developer with React, currently
             looking for my first commercial experience.
           </Text>
-          <Button href="">
+          <LinkButton href="">
             <Icon />
             Hire Me
-          </Button>
+          </LinkButton>
         </div>
       </Container>
     </div>
