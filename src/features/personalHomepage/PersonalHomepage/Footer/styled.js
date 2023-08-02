@@ -8,6 +8,7 @@ export const Preheader = styled.h2`
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: initial;
 `;
 
 export const EmailLink = styled.a`

@@ -7,7 +7,6 @@ export const LinkButton = styled.a`
   padding: 12px 16px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   color: ${({ theme }) => theme.colors.mailButton.text};
   background: ${({ theme }) => theme.colors.primary};
   font-size: 20px;

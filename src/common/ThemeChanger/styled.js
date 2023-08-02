@@ -4,9 +4,10 @@ import { ReactComponent as SunIcon } from "./sun.svg";
 export const Container = styled.div`
   display: flex;
   justify-content: flex-end;
-`;
+  `;
 
 export const Button = styled.button`
+  position: absolute;
   display: flex;
   cursor: pointer;
   color: inherit;
