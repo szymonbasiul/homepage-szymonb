@@ -1,4 +1,5 @@
 import ThemeChanger from "../../../../common/ThemeChanger";
+import { email } from "../email";
 import { LinkButton } from "../LinkButton";
 import {
   Container,
@@ -23,7 +24,7 @@ const PersonalInfo = () => {
             I'm learning to become Frontend Developer with React, currently
             looking for my first commercial experience.
           </Text>
-          <LinkButton href="">
+          <LinkButton href={`mailto:${email}`} title={email}>
             <Icon />
             Hire Me
           </LinkButton>
