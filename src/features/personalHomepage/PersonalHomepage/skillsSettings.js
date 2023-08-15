@@ -1,0 +1,30 @@
+export const skills = [
+  "Responsive Web Design",
+  "NPM",
+  "Git",
+  "JavaScript: ES6+",
+  "CSS/SCSS",
+  "Bem convention",
+  "Styled-components",
+  "React",
+  "React Hooks",
+  "React Router",
+  "Redux (Toolkit)",
+  "Redux-Saga",
+  "Promises, Async/Await",
+  "Working with API (axios, fetch)",
+  "Immutability",
+  "Markdown",
+  "Scrum methodology",
+  "Teamwork",
+  "Jira/Trello",
+];
+
+export const nextSkills = [
+  "TypeScript",
+  "Unit testing",
+  "Node.js",
+  "Next.js",
+  "Vue.js",
+  "Angular",
+];

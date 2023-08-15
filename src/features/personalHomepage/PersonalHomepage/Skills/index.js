@@ -1,11 +1,17 @@
-const Skills = () => {
-    return (
-      <div>
-        <div>My skillset includes</div>
-        <div>What I want to learn next</div>
-      </div>
-    );
-  };
-  
-  export default Skills;
-  
+import { Bullet, Item, List, Section, StyledHeader } from "./styled";
+
+const Skills = ({ title, skills }) => (
+  <Section>
+    <StyledHeader>{title}</StyledHeader>
+    <List>
+      {skills.map((skill) => (
+        <Item key={skill}>
+          <Bullet />
+          {skill}
+        </Item>
+      ))}
+    </List>
+  </Section>
+);
+
+export default Skills;
