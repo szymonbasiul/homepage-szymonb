@@ -1,9 +1,17 @@
 const paintCan = {
   white: "#FFFFFF",
+  porcelain: "#EFF2F3",
   whiteLilac: "#FBFBFE",
+  doveGray: "#6D6C6C",
   slateGray: "#6E7E91",
   mercury: "#E5E5E5",
+  tropicalBlue: "#C3DDF9",
+  anakiwa: "#9DE5FF",
+  shipCove: "#788BBA",
   scienceBlue: "#0366D6",
+  dodgerBlue: "#1E90FF",
+  blumine: "#18587A",
+  tundora: "#4A4244",
   mineShaft: "#252525",
   iron: "#D1D5DA",
 };
@@ -29,13 +37,13 @@ export const themeLight = {
       text: paintCan.slateGray,
     },
     mailButton: {
-      border: paintCan.iron,
-      shadow: paintCan.scienceBlue,
-      text: paintCan.white,
+      border: paintCan.white,
+      shadow: paintCan.iron,
+      text: paintCan.anakiwa,
     },
     tile: {
-      border: paintCan.scienceBlue,
-      borderHover: paintCan.scienceBlue,
+      border: paintCan.porcelain,
+      borderHover: paintCan.tropicalBlue,
       shadow: paintCan.scienceBlue,
     },
     boxBackground: paintCan.white,
@@ -45,34 +53,32 @@ export const themeLight = {
       icon: paintCan.white,
     },
   },
-  //   light theme settings - default
 };
 
 export const themeDark = {
   ...common,
   colors: {
-    primary: paintCan.scienceBlue,
-    textPrimary: paintCan.mineShaft,
+    primary: paintCan.dodgerBlue,
+    textPrimary: paintCan.white,
     site: {
-      background: paintCan.whiteLilac,
-      text: paintCan.slateGray,
+      background: paintCan.mineShaft,
+      text: paintCan.white,
     },
     mailButton: {
-      border: paintCan.iron,
-      shadow: paintCan.scienceBlue,
+      border: paintCan.white,
+      shadow: paintCan.iron,
       text: paintCan.white,
     },
     tile: {
-      border: paintCan.scienceBlue,
-      borderHover: paintCan.scienceBlue,
-      shadow: paintCan.scienceBlue,
+      border: paintCan.tundora,
+      borderHover: paintCan.blumine,
+      shadow: paintCan.white,
     },
-    boxBackground: paintCan.white,
-    headerLine: paintCan.mercury,
+    boxBackground: paintCan.mineShaft,
+    headerLine: paintCan.tundora,
     themeSwitch: {
-      background: paintCan.mercury,
-      icon: paintCan.white,
+      background: paintCan.doveGray,
+      icon: paintCan.mineShaft,
     },
   },
-  //   dark theme settings
 };
