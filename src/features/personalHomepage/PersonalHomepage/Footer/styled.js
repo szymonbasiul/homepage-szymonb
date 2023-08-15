@@ -11,14 +11,10 @@ export const Preheader = styled.h2`
   letter-spacing: initial;
 `;
 
-export const EmailLink = styled.a`
-
-`;
-
 export const Text = styled.p`
   display: flex;
 `;
 
-export const SocialIcons = styled.div`
-    
-`;
+export const EmailLink = styled.a``;
+
+

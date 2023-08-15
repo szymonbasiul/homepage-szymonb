@@ -38,10 +38,10 @@ export const Switch = styled.span`
 `;
 
 export const IconWrapper = styled.div`
+  background: currentColor;
   display: flex;
   border-radius: 50%;
   padding: 3px;
-  background: currentColor;
   transition: transform 0.3s;
 
   ${({ moveToRight }) =>

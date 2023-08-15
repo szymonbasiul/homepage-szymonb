@@ -1,10 +1,5 @@
-import {
-  Container,
-  EmailLink,
-  Preheader,
-  SocialIcons,
-  Text,
-} from "./styled";
+import { SocialIcons } from "./SocialIcons";
+import { Container, EmailLink, Preheader, Text } from "./styled";
 
 const Footer = () => {
   return (
@@ -17,7 +12,7 @@ const Footer = () => {
           you're looking for a talented employee or want some help with your
           project, feel free to contact me.
         </Text>
-        <SocialIcons>Github, LinkedIn</SocialIcons>
+        <SocialIcons />
       </div>
     </Container>
   );
