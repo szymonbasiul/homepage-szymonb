@@ -1,3 +1,4 @@
+import { email } from "../email";
 import { SocialIcons } from "./SocialIcons";
 import { Container, EmailLink, Preheader, Text } from "./styled";
 
@@ -6,7 +7,7 @@ const Footer = () => {
     <Container>
       <div>
         <Preheader>Let's talk!</Preheader>
-        <EmailLink>szymon.basiul@gmail.com</EmailLink>
+        <EmailLink href={`mailto:${email}`}>{email}</EmailLink>
         <Text>
           I'm open for new job opportunities as a Junior Frontend Developer. If
           you're looking for a talented employee or want some help with your
