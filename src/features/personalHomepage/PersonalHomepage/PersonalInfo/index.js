@@ -18,7 +18,7 @@ const PersonalInfo = () => {
         <Preheader>This is</Preheader>
         <Header>Szymon Basiul</Header>
         <Text>
-          I'm learning to become Frontend Developer with React, currently
+          I'm self-learning to become Frontend Developer, currently
           looking for my first commercial experience.
         </Text>
         <LinkButton href={`mailto:${email}`} title={email}>

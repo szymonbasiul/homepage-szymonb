@@ -33,7 +33,7 @@ export const EmailLink = styled.a`
 `;
 
 export const Text = styled.p`
-  max-width: 650px;
+  max-width: 670px;
   font-size: 18px;
   line-height: 1.4;
   color: ${({ theme }) => theme.colors.textPrimary};
