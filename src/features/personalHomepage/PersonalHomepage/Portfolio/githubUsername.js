@@ -1,1 +1,1 @@
-export const githubUsername = "szymonbasiul";
+export const githubUsername = "SzymonBasiul";

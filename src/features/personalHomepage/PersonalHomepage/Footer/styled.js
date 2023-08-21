@@ -16,6 +16,18 @@ export const Preheader = styled.h2`
   margin: 0;
 `;
 
+export const Address = styled.address`
+  font-style: unset;
+`;
+
+export const EmailContainer = styled.div`
+  margin: 24px 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    margin: 12px 0;
+  }
+`;
+
 export const EmailLink = styled.a`
   color: ${({ theme }) => theme.colors.textPrimary};
   font-weight: 900;

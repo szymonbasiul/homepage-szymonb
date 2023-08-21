@@ -10,10 +10,10 @@ export const Button = styled.button`
   position: absolute;
   display: flex;
   cursor: pointer;
-  color: inherit;
   align-items: center;
   border: none;
-  background: transparent;
+  color: inherit;
+  background: none;
   outline-offset: 10px;
 `;
 
