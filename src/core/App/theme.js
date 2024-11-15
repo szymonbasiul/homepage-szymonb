@@ -1,5 +1,6 @@
 const paintCan = {
   white: "#FFFFFF",
+  whiteOpacity: "#FFFFFF10",
   porcelain: "#EFF2F3",
   whiteLilac: "#FBFBFE",
   doveGray: "#6D6C6C",
@@ -74,7 +75,7 @@ export const themeDark = {
       borderHover: paintCan.blumine,
       shadow: paintCan.white,
     },
-    boxBackground: paintCan.mineShaft,
+    boxBackground: paintCan.whiteOpacity,
     headerLine: paintCan.tundora,
     themeSwitch: {
       background: paintCan.doveGray,
