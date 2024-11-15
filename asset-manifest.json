@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/homepage-szymonb/static/js/main.f07e83d9.js",
+    "static/js/787.376fe1e3.chunk.js": "/homepage-szymonb/static/js/787.376fe1e3.chunk.js",
+    "static/media/Szymon_Basiul.jpg": "/homepage-szymonb/static/media/Szymon_Basiul.b72d2a40822a33517092.jpg",
+    "static/media/github.svg": "/homepage-szymonb/static/media/github.279aa9bb264aa4f1321f772f421d3c91.svg",
+    "static/media/sun.svg": "/homepage-szymonb/static/media/sun.2da5ce91a4389b5964212b6824a99e60.svg",
+    "index.html": "/homepage-szymonb/index.html",
+    "static/media/linkedin.svg": "/homepage-szymonb/static/media/linkedin.e2520002d228f1bc0f7640368aaca5c7.svg",
+    "static/media/warning.svg": "/homepage-szymonb/static/media/warning.f1edb5dff122af3877da07605a133e80.svg",
+    "static/media/mail.svg": "/homepage-szymonb/static/media/mail.08f5e9f91b2dca66f96e93bdd8a246a2.svg",
+    "static/media/spinner.svg": "/homepage-szymonb/static/media/spinner.00af417cbd0afc81c8c672eb2032c5f2.svg",
+    "static/media/bullet.svg": "/homepage-szymonb/static/media/bullet.9a631474a2698710e88844b8dbcaad0b.svg",
+    "main.f07e83d9.js.map": "/homepage-szymonb/static/js/main.f07e83d9.js.map",
+    "787.376fe1e3.chunk.js.map": "/homepage-szymonb/static/js/787.376fe1e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f07e83d9.js"
+  ]
+}
