@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   margin-top: 120px;
+  max-width: 490px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    width: 48px;
   }
 `;
 
@@ -52,6 +52,7 @@ export const Text = styled.p`
   margin: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    max-width: 100%;
     font-size: 14px;
   }
 `;

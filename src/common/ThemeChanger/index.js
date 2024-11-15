@@ -10,7 +10,7 @@ const ThemeChanger = () => {
       <Button onClick={() => dispatch(toggleTheme())}>
         <Text>Dark mode {isDarkTheme ? "on" : "off"}</Text>
         <Switch>
-          <IconWrapper moveToRight={isDarkTheme}>
+          <IconWrapper movetoright={isDarkTheme}>
             <Icon />
           </IconWrapper>
         </Switch>
