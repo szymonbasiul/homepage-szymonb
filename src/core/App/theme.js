@@ -48,7 +48,7 @@ export const themeLight = {
       shadow: paintCan.scienceBlue,
     },
     boxBackground: paintCan.white,
-    headerLine: paintCan.mercury,
+    headerLine: paintCan.mineShaft,
     themeSwitch: {
       background: paintCan.mercury,
       icon: paintCan.white,
@@ -76,7 +76,7 @@ export const themeDark = {
       shadow: paintCan.white,
     },
     boxBackground: paintCan.whiteOpacity,
-    headerLine: paintCan.tundora,
+    headerLine: paintCan.white,
     themeSwitch: {
       background: paintCan.doveGray,
       icon: paintCan.mineShaft,
