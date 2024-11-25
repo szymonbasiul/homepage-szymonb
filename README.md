@@ -1,3 +1,28 @@
+# Szymon Basiul - homepage-szymonb
+
+## Demo
+
+https://szymonbasiul.github.io/homepage-szymonb/
+
+## Technology
+
+HTML
+JS
+React
+Redux-Saga
+Redux-Toolkit
+CSS
+Styled Components
+Normalize
+Axios
+
+## Description
+
+Explore a showcase of creativity, expertise, and innovation. This portfolio highlights my work across front-end technologies, demonstrating a passion for quality and attention to detail. Discover completed projects, insights into my creative process, and the skills that make me stand out. Let's connect and create something exceptional together!
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
